@@ -1,1 +1,4 @@
 git checkout -b nowy-branch
+echo "nowy branch" >> test.txt
+git add test.txt
+git cinit -m "Dodanie linijki na nowym branchu"
