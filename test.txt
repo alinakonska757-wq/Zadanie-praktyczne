@@ -8,3 +8,5 @@ echo "główny branch" >> test.txt
 git add test.txt
 got commit -m "Dodanie linijki na głównym branchu"
 git merge nowy-branch
+git add test.txt
+git commit -m "Merge brancha - zachowanie"
