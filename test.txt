@@ -3,3 +3,7 @@ echo "nowy branch" >> test.txt
 git add test.txt
 git cinit -m "Dodanie linijki na nowym branchu"
 git push origin nowy-branch
+git checkout main
+echo "główny branch" >> test.txt
+git add test.txt
+got commit -m "Dodanie linijki na głównym branchu"
