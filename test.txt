@@ -1,3 +1,1 @@
-git add test.txt
-git commit -m "Merge brancha - zachowanie"
-git push origin main
+główny branch
