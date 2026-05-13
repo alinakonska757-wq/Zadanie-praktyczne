@@ -7,3 +7,4 @@ git checkout main
 echo "główny branch" >> test.txt
 git add test.txt
 got commit -m "Dodanie linijki na głównym branchu"
+git merge nowy-branch
